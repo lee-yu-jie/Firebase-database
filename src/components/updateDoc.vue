@@ -15,7 +15,7 @@ import db from '@/firebase/init.js';
 // 內容若無指定的key, 則新增一筆資料
 
 const updateCountry = async () => {
-  const docRef = doc(db, "users", "8cpysBZ3KsQUij9HHNeY");
+  const docRef = doc(db, "cities", "BJ");
   const payload = {
     jjjj: "Beidsfdsfsfdsfjing4",
   }
