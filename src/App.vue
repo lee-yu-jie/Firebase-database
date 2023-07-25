@@ -6,6 +6,7 @@
     <getDoc />
     <getDocs />
     <Where />
+    <orderBy />
   </div>
 </template>
 
@@ -16,6 +17,8 @@ import updateDoc from './components/updateDoc.vue';
 import getDoc from './components/getDoc.vue';
 import getDocs from './components/getDocs.vue';
 import Where from './components/where_.vue';
+import orderBy from './components/orderBy.vue';
+
 </script>
 
 <style lang="scss">
