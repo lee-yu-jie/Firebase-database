@@ -13,8 +13,9 @@ const getData = async () => {
   const q = query(collection(db, "users"));
   const querySnapshot = await getDocs(q);
   querySnapshot.forEach((doc) => {
-    console.log(doc.data());
-    console.log(doc.id);
+    doc
+    // console.log(doc.data());
+    // console.log(doc.id);
   });
 }
 

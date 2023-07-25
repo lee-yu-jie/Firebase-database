@@ -20,7 +20,7 @@ const addData = async () => {
   const data = {
     first: "Ada",
     last: "Lovelace",
-    born: 1815
+    born: 1860
   }
 
   const docRef = await addDoc(colRef, data);
