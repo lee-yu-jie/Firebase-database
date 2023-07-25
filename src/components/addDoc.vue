@@ -24,7 +24,6 @@ const addData = async () => {
   }
 
   const docRef = await addDoc(colRef, data);
-  console.log(docRef);
   id.value = docRef.id;
 }
 
